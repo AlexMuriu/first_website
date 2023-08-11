@@ -1,0 +1,503 @@
+header {
+    position: sticky;
+    padding-top: 0.5%;
+    top: 0%;
+    background-color: white;
+    overflow-y: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: white;
+    position: relative;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    min-height: 100%;
+}
+.top {
+    display: grid;
+    grid-template-columns: 5% 10% 10% 15% 15% 10% 10% 10% 10% 5%;
+    padding-top: 1px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.mainLogo {
+    grid-column-start: 2;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: -1px;
+    transition: 5ms;
+    font-family: cursive;
+    font-stretch: expanded;
+    text-decoration-thickness: 3px;
+    text-shadow: 2px;
+}
+.mainLogo a {
+    text-decoration: none;
+    color: red;
+}
+.mainLogo:hover {
+    background-color: red;
+    border: 2px solid red;
+}
+.mainLogo:hover a {
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    font-weight: bolder;
+}
+
+.signIn {
+    grid-column-start: 9;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 5ms;
+}
+.signIn a {
+    text-decoration: none;
+    color: red;
+}
+.signIn:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+}
+.signIn:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+
+/*Styling for the navigation bar*/
+
+.navigation_bar {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+
+/*Styling for the home page*/
+
+.home {
+    grid-column-start: 1;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: white;
+    transition: 5ms;
+    border-left: 2px solid red;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.home a {
+    text-decoration: none;
+    color: red;
+}
+.home:hover {
+    background-color: red;
+    border: 2px solid red;
+    font-weight: bolder;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.home:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    font-weight: bolder;
+}
+
+/*Active Home Page Nav Bar rendering*/
+
+.home_active_page {
+    grid-column-start: 1;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: red;
+    transition: 5ms;
+    border-left: 2px solid red;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.home_active_page a {
+    text-decoration: none;
+    color: white;
+}
+.home_active_page:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.home_active_page:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    font-weight: bolder;
+}
+/*Second page styling*/
+
+.news {
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: white;
+    transition: 5ms;
+}
+.news a {
+    text-decoration: none;
+    color: red;
+}
+.news:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.news:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    font-weight: bolder;
+}
+
+/*Active News Page Nav Bar rendering*/
+
+.news_active_page {
+    grid-column-start: 2;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: red;
+    transition: 5ms;
+}
+.news_active_page a {
+    text-decoration: none;
+    color: white;
+}
+.news_active_page:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.news_active_page:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    font-weight: bolder;
+}
+
+/*Third page styling*/
+
+.blog {
+    grid-column-start: 3;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: white;
+    transition: 5ms;
+}
+.blog a {
+    text-decoration: none;
+    color: red;
+}
+.blog:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.blog:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    font-weight: bolder;
+}
+
+/*Active Blog Page Nav Bar rendering*/
+
+.blog_active_page {
+    grid-column-start: 3;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: red;
+    transition: 5ms;
+}
+.blog_active_page a {
+    text-decoration: none;
+    color: white;
+}
+.blog_active_page:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.blog_active_page:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    font-weight: bolder;
+}
+
+/*Styling for the fourth page (gallery)*/
+
+.gallery {
+    grid-column-start: 4;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: white;
+    transition: 5ms;
+    border-right: 2px solid red;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gallery a {
+    text-decoration: none;
+    color: red;
+}
+.gallery:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.gallery:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    font-weight: bolder;
+}
+
+/*Active gallery Page Nav Bar rendering*/
+
+.gallery_active_page {
+    grid-column-start: 4;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: red;
+    transition: 5ms;
+    border-right: 2px solid red;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gallery_active_page a {
+    text-decoration: none;
+    color: white;
+}
+.gallery_active_page:hover {
+    background-color: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.gallery_active_page:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    font-weight: bolder;
+}
+
+/*Styling for the footer*/
+
+footer {
+    padding-bottom: 1%;
+    position: sticky;
+    bottom: -19%;
+    background-color: white;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding-top: 0.2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contacts {
+    display: grid;
+    grid-template-columns: 10% 40% 10% 10% 10% 10% 10%;
+}
+footer hr {
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+footer #logo {
+    grid-column-start: 1;
+    justify-content: center;
+    border: 2px solid red;
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    padding: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: red;
+}
+.contact_1 {
+    grid-column-start: 3;
+    text-align: center;
+    padding: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+}
+.contact_1:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.contact_1:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+
+.contact_2 {
+    grid-column-start: 4;
+    text-align: center;
+    padding: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.contact_2:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.contact_2:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+
+.contact_3 {
+    grid-column-start: 5;
+    text-align: center;
+    padding: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.contact_3:hover {
+    background-color: red;
+    border: 1px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.contact_3:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+
+.contact_4 {
+    grid-column-start: 6;
+    text-align: center;
+    padding: 5px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+.contact_4:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.contact_4:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+
+.contact_5 {
+    grid-column-start: 7;
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+}
+.contact_5:hover {
+    background-color: red;
+    border: 2px solid red;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.contact_5:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+.socialMedia {
+    display: grid;
+    grid-template-columns: 42.5% 5% 5% 5% 42.5%;
+    align-content: center;
+    text-align: center;
+}
+#twitter {
+    grid-column-start: 2;
+    color: red;
+    align-items: center;
+}
+#instagram {
+    grid-column-start: 3;
+    color: red;
+    align-items: center;
+}
+#facebook {
+    grid-column-start: 4;
+    color: red;
+    align-items: center;
+}
+footer p {
+    text-align: center;
+}
+footer h6 {
+    text-align: center;
+    margin-bottom: -0.2%;
+    margin-top: -0.5%;
+}
