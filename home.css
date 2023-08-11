@@ -1,0 +1,197 @@
+/*Styling for home page content*/
+
+.intro {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro p {
+    margin-top: -1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.from_author {
+    min-height: 70px;
+    min-width: 80%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.from_author p {
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.author {
+    margin-left: 8%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 86% 3% 3% 5% 3%;
+    align-items: center;
+}
+.author a {
+    text-decoration: none;
+    color: red;
+}
+.social_1 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    grid-column-start: 2;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social_1:hover {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.social_1:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+
+.social_2 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    grid-column-start: 3;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social_2:hover {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.social_2:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+
+.social_3 {
+    height: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    grid-column-start: 4;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social_3:hover {
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.social_3:hover a {
+    background-color: red;
+    color: white;
+    text-transform: unset;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    margin-left: 0.5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+#firstImage {
+    grid-column-start: 1;
+    align-items: center;
+    min-height: 348px;
+
+}
+#firstImage img {
+    min-height: 348px;
+    min-width: 100%;
+    border: 1px double black;
+    border-radius: 10px;
+}
+#secondImage {
+    grid-column-start: 3;
+    align-items: center;
+    min-height: 348px;
+}
+#secondImage img{
+    min-height: 348px;
+    min-width: 100%;
+    border: 1px double black;
+    border-radius: 10px;
+}
+
+article {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+.lists {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+}
+.lists h4 {
+    grid-column-start: 1;
+    padding-left: 3%;
+    padding-top: 3%;
+    margin-top: -1%;
+    margin-bottom: -2%;
+}
+.lists p {
+    margin-left: 15%;
+    font-weight: bold;
+    text-align: justify;
+}
+.lists a {
+    text-decoration: none;
+}
+.lists a:hover {
+    text-decoration: underline;
+}
+.lists a:visited {
+    color: black;
+}
+.sublist_1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    align-self: center;
+    padding-left: 25%;
+}
+.sublist_2 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: center;
+    padding-left: 25%;
+}
