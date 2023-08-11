@@ -1,0 +1,232 @@
+.latest {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 23.5% 2% 23.5% 2% 23.5% 2% 23.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tab_1 {
+    grid-column-start: 1;
+    align-items: center;
+}
+.tab_1:hover .legend_0 {
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    transform: scale3d(1.2);
+}
+
+.tab_2 {
+    grid-column-start: 3;
+    align-items: center;
+}
+.tab_2:hover .legend_0 {
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    transform: scale3d(1.2);
+}
+
+.tab_3 {
+    grid-column-start: 5;
+    align-items: center;
+}
+.tab_3:hover .legend_0 {
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    transform: scale3d(1.2);
+}
+
+.tab_4 {
+    grid-column-start: 7;
+    align-items: center;
+}
+.tab_4:hover .legend_0 {
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+    transform: scale3d(1.2);
+}
+
+hr {
+    border: 0.5px solid red;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.legend_3 {
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    text-align: center;
+    margin-bottom: 0.6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 48% 4% 48%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 0.5%;
+    padding-top: 0.3%;
+}
+
+.firstImage {
+    grid-column-start: 1;
+    align-items: center;
+    min-height: 348px;
+}
+.secondImage {
+    grid-column-start: 3;
+    align-items: center;
+    min-height: 348px;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+    border: 1px double black;
+    border-radius: 5px;
+}
+
+.legend_0 {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    text-align: center;
+}
+
+form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 33%;
+    margin-right: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+fieldset:not(.legend) {
+    max-width: 50%;
+    text-align: center;
+    display: block;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.legend_1 {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    text-align: center;
+}
+
+@media (max-width: 780px) {
+      .legend {
+          margin-left: 0;
+      }
+  }
+
+form div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"], input[type="email"] {
+    height: 20px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.radio--container {
+    width: 260px;
+    margin: auto;
+}
+
+textarea {
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.textarea--label--div {
+    width: 250px;
+    margin: 20px auto 0;
+    justify-content: flex-start;
+}
+
+.status--date {
+    width: 260px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+select {
+    width: 120px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type="date"] {
+    width: 120px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.status, .date {
+    width: 120px;
+    flex-wrap: wrap;
+}
+
+.status {
+    margin-right: auto;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.checkbox--container {
+    font-size: small;
+    width: 250px;
+    margin: 15px auto;
+}
+
+button {
+    width: 120px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 40px;
+}
+button:hover {
+    transform: scale(1.1);
+}
